@@ -1,0 +1,21 @@
+{
+  "name": "underthebridge",
+  "version": "1.0.0",
+  "description": "Under the bridge Website ",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Daniel \"Chavo\" Chavez",
+  "license": "ISC"
+}
