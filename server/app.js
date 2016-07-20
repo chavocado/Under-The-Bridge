@@ -3,7 +3,8 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
-
+//routes
+var index = require('./routes/index');
 //set port
 app.set('port', process.env.PORT || 5000);
 
